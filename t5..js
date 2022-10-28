@@ -39,3 +39,7 @@ if (brew1.product === "latte") {
         console.log('cost is 150');
     }
 }
+// create a new instance every time as brew1 and it will calculate the cost based on the condition given by you 
+// test cases
+// let brew1 = new Coffee("latte", 'milk');
+// let brew1 = new Coffee("Espresso", 'milk');
