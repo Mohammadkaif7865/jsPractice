@@ -1,4 +1,4 @@
-let arr = [12, 34, 23, 12, 67, 87, 47];
+let arr = [12, 15, 23, 25, 34, 47, 67, 87];
 let arr2 = [];
 let i = 0;
 let j = arr.length - 1;
