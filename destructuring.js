@@ -8,7 +8,11 @@
 // # object destructuring methods
 let a = {
     name: "hola",
-    class: 'men'
+    class: 'men',
+    age: 23,
 }
-let { name } = a;
+let { name, ...rest } = a;
 console.log(name);
+console.log(rest);
+// Output : hola
+// { class: 'men', age: '23' }
