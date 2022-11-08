@@ -5,6 +5,7 @@
 // console.log(c);
 // Output  :elephant
 // [ 'lion', 'zebra', 'penguin', 'hog' ]
+// ! The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables
 // # object destructuring methods
 let a = {
     name: "hola",
