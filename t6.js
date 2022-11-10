@@ -1,4 +1,8 @@
 // console.log( null  && true && false);
 let passIt = () => {
-    console.log('this is the callback function');
+    return console.log('this is the callback function');
 }
+let highOrder = (a) => {
+    console.log(a());
+}
+highOrder(passIt);
