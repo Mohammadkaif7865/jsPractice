@@ -13,3 +13,6 @@
 
 // }
 // console.log(curryIng(2)(6));
+let a = [23,34,213,32,352,'mango','nanna'];
+// ! slice range act like this [ )
+console.log(a.slice(1,4));
