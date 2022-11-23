@@ -7,7 +7,7 @@
 // }
 
 // console.log(element);
-for (var i = 0; i <= 6; ++i) {
+for (var i = 1; i <= 6; ++i) {
     console.log(i);
     i = i + 1;
 }
