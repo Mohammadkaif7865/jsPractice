@@ -1,5 +1,8 @@
-let a = 5;
-let b = 5;
-let random = Math.floor(Math.random() * 10000);
-// ? you can not directly use variable name to declare the variable
-console.log(a + b + random);
+let a = [23,234, 43, 2, 435, 43, -1, 323, 323,34534];
+let element = a[0];
+for (let i = 0; i < a.length - 1; i++) {
+    if (a[i + 1] > element) {
+        element = a[i + 1];
+    }
+}
+console.log(element);
