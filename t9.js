@@ -1,4 +1,4 @@
-let arr = ['ghi@hotmail.com', 'def@yahoo.com', 'ghi@gmail.com', 'abc@channelier.com', 'abc@hotmail.com', 'def@hotmail.com', 'abc@gmail.com', 'abc@yahoo.com', 'def@channelier.com', 'jkl@hotmail.com', 'ghi@yahoo.com', 'jkl@yahoo.com', 'def@gmail.com'];
+let arr = ['ghi@hotmail.com', 'def@yahoo.com', 'ghi@gmail.com', 'abc@channelier.com', 'abc@hotmail.com', 'def@hotmail.com', 'abc@gmail.com', 'abc@yahoo.com', 'def@channelier.com', 'jkl@hotmail.com', 'ghi@yahoo.com', 'jkl@yahoo.com', 'def@gmail.com', "xye@gmail.com", "zty@gmail.com"];
 arr.sort();
 let i = 0;
 while (i < arr.length - 2) {
@@ -43,3 +43,4 @@ while (i < arr.length - 2) {
 
 }
 console.log(arr);
+// ? Finally done
